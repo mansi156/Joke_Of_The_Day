@@ -1,0 +1,43 @@
+# Joke Of The Day
+
+A simple Android mobile application developed using the principles of Clean Architecture and following the MVVM (Model-View-ViewModel) design pattern. The app provides a daily dose of humor by fetching and displaying jokes from an external API. It serves as an example of best practices in Android application development.
+
+
+### Technologies & Methodologies which used:
+
+- Koin
+- Coroutines
+- Clean Architecture
+- MVVM Pattern
+- LiveData
+
+
+### The App Scenario
+
+Used the following REST API, develop a simple application that fetches the
+Joke from the API and displays them in a list. The list has atmost 10 items and after 1 min, it will replace old one. 
+
+The API is here: 
+“https://geek-jokes.sameerkumar.website/“
+
+
+
+
+### Supported Android Versions
+
+android versions targeted:
+
+-Android 5.0 (API level 21) or higher
+
+
+### Used libraries
+
+1. [GitHub](http://square.github.io/retrofit/) - retrofit
+2. [GitHub](https://github.com/square/moshi) - moshi
+3. [Github](https://github.com/casidiablo/multidex) - Multidex
+
+
+
+## Author
+@Mansi Sharma
+
