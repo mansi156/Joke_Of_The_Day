@@ -30,7 +30,7 @@ class JokesViewModel(
         loadJokesFromLocal()
         viewModelScope.launch {
             while (true) {
-                delay(6000) // Fetch new jokes every minute
+                delay(60000) // Fetch new jokes every minute
                 getJokes()
             }
         }
